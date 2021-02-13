@@ -54,4 +54,12 @@ local function inventoryFactory(name)
 
         return peri.pushItem(direction, slot, maxAmount, intoSlot)
     end
+
+    return {
+            peri = peri,
+            getStackInSlot= getStackInSlot,
+            getAllStacks = getAllStacks,
+            pullItem = pullItem,
+            pushItem = pushItem
+        }
 end
