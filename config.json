@@ -1,0 +1,29 @@
+{
+    "direction": "up",
+    
+    "peripheralName":"left",
+    
+    "items": [
+        {
+            "name": "example name",
+
+            "priority": 1,
+
+            "keep": 500,
+
+            "itemFingerprint":{
+                "id": "mod:itemName",
+                "damage": 0,
+                "display_name": "example item"
+            },
+
+            "safariNetFingerprint": {
+                "id": "mod:itemName",
+                "damage": 0,
+                "display_name": "example item"
+            }
+        }
+    ]
+
+
+}
